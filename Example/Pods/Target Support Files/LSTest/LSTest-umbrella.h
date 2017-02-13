@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Test.h"
 
 FOUNDATION_EXPORT double LSTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char LSTestVersionString[];

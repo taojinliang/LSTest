@@ -7,6 +7,7 @@
 //
 
 #import "LSViewController.h"
+#import "Test.h"
 
 @interface LSViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    Test *a = [[Test alloc] init];
+    [a logTest];
 }
 
 - (void)didReceiveMemoryWarning
