@@ -1,0 +1,6 @@
+framework module LSTest {
+  umbrella header "LSTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
